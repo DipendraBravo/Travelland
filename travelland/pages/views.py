@@ -7,3 +7,11 @@ def index(request):
 
 def about(request):
     return render(request, 'pages/about.html')
+
+
+def destination(request):
+    return render(request, 'pages/destination.html')
+
+
+def signin(request):
+    return render(request, 'pages/signin.html')
