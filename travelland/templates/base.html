@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/form/form.css' %} ">
 
 <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %} ">
 <link rel="stylesheet" type="text/css" href="{% static 'css/owl.carousel.min.css' %} ">
@@ -22,6 +23,8 @@
 <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %} ">
 <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css">
+  <link href='//fonts.googleapis.com/css?family=Muli:400,300,300italic,400italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
 
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    <script type="text/javascript" src="{% static 'js/vendor/modernizr-3.5.0.min.js' %}"></script>
@@ -46,6 +49,8 @@
 					 <script type="text/javascript" src="{% static 'js/jquery.form.js' %}"></script>
 					  <script type="text/javascript" src="{% static 'js/jquery.validate.min.js' %}"></script> <script type="text/javascript" src="{% static 'js/mail-script.js' %}"></script>
 					  <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+					   <script type="text/javascript" src="{% static 'js/form/form.js' %}"></script>
+					<script async>(function(w, d) { w.CollectId = "5e3af7b041dfeb5054b680f5"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
 					  
 </head>
 
@@ -53,9 +58,10 @@
  
 
 <body>
-    {% include 'partials/nav.html' %}<br/>
+    {% include 'partials/nav.html' %}
     {% include 'partials/header.html' %}
     {% block content %} 
+
     {% endblock %} 
     {% include 'partials/footer.html' %}
 
