@@ -6,7 +6,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+   {% block head %}
+        <title></title>
+    {% endblock head %}
+    <link rel="icon" href="{% static 'image/logo.jpg' %}" type="image/icon type">
     <link rel="stylesheet" type="text/css" href="{% static 'css/form/form.css' %} ">
 
 <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %} ">
