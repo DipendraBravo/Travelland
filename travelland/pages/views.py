@@ -15,3 +15,6 @@ def destination(request):
 
 def signin(request):
     return render(request, 'pages/signin.html')
+
+def signup(request):
+	return render(request,'pages/signup.html')
